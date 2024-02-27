@@ -1,0 +1,53 @@
+.wholePage {
+    padding: 0 3.5rem;
+    background-color: #c0b8bd;
+    display: flex;
+    align-items: center;
+}
+
+
+.welcomeLeft {
+    width: 60%;
+    height: 80%;
+    background-color: #0d4dd7;
+    position: relative;
+    align-items: center;
+}
+
+
+.welcomeLeft--title {
+    color: white;
+    margin-top: 4rem;
+    margin-bottom: -1rem;
+    justify-content: center;
+    display: flex;
+}
+
+
+.welcomeLeft--subTitle {
+    color: white;
+    display: flex;
+    font-weight: 200;
+    justify-content: center;
+}
+
+
+.welcomeLeft--img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.welcomeRight {
+    width: 40%;
+    height: 80%;
+    background-color: white;
+}
+
+
+.welcomeRight--title {
+    margin: 0;
+    color: blue;
+}

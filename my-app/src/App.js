@@ -4,6 +4,7 @@ import WelcomePageComp from "./welcomePage/components/WelcomePage.js"
 import CollectingDataComp from "./registrationProcess/components/CollectingData.js"
 import MainPageComp from "./mainPage/components/MainPage.js"
 import NotFoundPageComp from "./NotFoundPage.js";
+import "./app.css"
 
 
 function App() {
