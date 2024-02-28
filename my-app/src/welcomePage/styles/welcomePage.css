@@ -9,26 +9,28 @@
 .welcomeLeft {
     width: 60%;
     height: 80%;
-    background-color: #0d4dd7;
+    background-color: #0d4dd9;
     position: relative;
-    align-items: center;
 }
 
 
+
 .welcomeLeft--title {
+    justify-content: center;
+    display: flex;
     color: white;
     margin-top: 4rem;
     margin-bottom: -1rem;
-    justify-content: center;
-    display: flex;
+
 }
 
 
 .welcomeLeft--subTitle {
-    color: white;
     display: flex;
-    font-weight: 200;
     justify-content: center;
+    color: white;
+    font-weight: 200;
+
 }
 
 
@@ -44,10 +46,67 @@
     width: 40%;
     height: 80%;
     background-color: white;
+    position: relative;
 }
 
 
 .welcomeRight--title {
-    margin: 0;
-    color: blue;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #0d4dd9;
 }
+
+  
+.button {
+    margin-top: -20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    /* color: red; */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #0d4dd9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
+    border-radius: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  
+  .button:hover::before {
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+  }
+  
+  
+
+   
