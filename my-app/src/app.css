@@ -3,4 +3,5 @@ html, body, div {
     padding: 0;
     height: 100%;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box; /* Ensures padding and border don't add extra size */
 }
