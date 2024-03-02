@@ -7,7 +7,7 @@ export default function WelcomePage() {
   const navigate = useNavigate();
 
   function handleClick() {
-    navigate("/register/CollectingFullName");
+    navigate("/register");
   }
 
   return (

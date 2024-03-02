@@ -1,0 +1,38 @@
+.userArea--fullName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 3%;
+  text-align: center;
+}
+
+
+.fullName--title {
+    color: white;
+    font-size: 1.5vw;
+}
+
+
+.inputs--form input{
+    width: 80%;
+    color: white;
+    padding: 1vw;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+
+.FirstName--inputBox {
+    margin-bottom: 2vw;
+    margin-top: 1.5vw;
+}
+
+
+.fullName--title button {
+    padding: 20px;
+
+}
